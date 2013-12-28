@@ -6,37 +6,46 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS -->
+        <!-- Custom CSS
         <link rel="stylesheet" href="/css/main.css">
+        -->
 
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          </div>
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="/">Blog</a></li>
+            <li><a href="http://hubdrop.io">hubdrop.io</a></li>
+        </ul>
+        <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+      </div>
 
-          {{ content }}
+      {{ content }}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
+      <div class="row">
+        <div class="col-xs-6">
+            <p>
                 <a href="http://hubdrop.io">hubdrop.io</a><br />
                 Mirror Drupal projects on GitHub
-              </p>
-            </div>
-            <div class="contact">
-              <p>
+            </p>
+        </div>
+        <div class="col-xs-6">
+            <p>
                 <a href="https://github.com/hubdrop">github.com/hubdrop</a><br />
                 <a href="https://twitter.com/hubdrop">twitter.com/hubdrop</a><br />
-              </p>
-            </div>
-          </div>
+            </p>
         </div>
-
+      </div>
+    </div>
     </body>
 </html>

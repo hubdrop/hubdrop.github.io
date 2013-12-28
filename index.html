@@ -3,13 +3,18 @@ layout: default
 title: hubdrop blog
 ---
 
+<div class="jumbotron">
+    <h1>HubDrop</h1>
+    <p class="lead">Mirroring code between drupal and github.</p>
+    <p><a class="btn btn-lg btn-success" href="http://hubdrop.io" role="button">Mirror a project.</a></p>
+</div>
+
 <div id="home">
-    <h1>Welcome</h1>
-    <p>Welcome to hubdrop's blog.  We're just getting set up over here, so bear with us.</p>
-  <h1>Blog Posts</h1>
-  <ul class="posts">
+  <ul class="posts list-group">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li class="list-group-item"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+      </li>
     {% endfor %}
   </ul>
 </div>
