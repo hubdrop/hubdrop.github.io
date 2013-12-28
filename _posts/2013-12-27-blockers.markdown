@@ -1,5 +1,8 @@
 ---
-title: Mirroring TO drupal.org
+layout: post
+title:  "GitHub to drupal.org"
+date:   2013-12-28 18:34:00
+categories: repos
 ---
 
 HubDrop started with the idea that we could all benefit from drupal module code living on GitHub.
@@ -15,5 +18,7 @@ In order to make the hubdrop repos at http://github.com/drupalprojects the sourc
 
 Once we can do that, we can automatically grant push access to the correct GitHub users, using drupal.org as the canonical maintainers list.
 
-So, if you are involved in Drupal.org development, see (Issue #2161929 Add a profile field for GitHub accoun) [https://drupal.org/node/2161929]
+So, if you are involved in Drupal.org development, please see [Issue #2161929 Add a profile field for GitHub account](https://drupal.org/node/2161929) and [Issue #1090056 Show a version of the maintainers tab for all users](http://drupal.org/node/1090056)
+
+But for now, I am going to look for a link to your github user on your drupal.org account.
 
