@@ -1,5 +1,5 @@
 ---
-published: false
+title: Mirroring TO drupal.org
 ---
 
 HubDrop started with the idea that we could all benefit from drupal module code living on GitHub.
