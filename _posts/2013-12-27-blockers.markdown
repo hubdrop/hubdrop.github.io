@@ -1,0 +1,19 @@
+---
+published: false
+---
+
+HubDrop started with the idea that we could all benefit from drupal module code living on GitHub.
+
+Turns out mirroring drupal modules on github was pretty easy.
+
+Mirroring a module on GitHub, back to drupal.org, turns out to be a lot harder.
+
+In order to make the hubdrop repos at http://github.com/drupalprojects the source, we need to know two things:
+
+1. Who are the users allowed to commit to VCS for each Drupal project.
+2. What those users' GitHub usernames are.
+
+Once we can do that, we can automatically grant push access to the correct GitHub users, using drupal.org as the canonical maintainers list.
+
+So, if you are involved in Drupal.org development, see (Issue #2161929 Add a profile field for GitHub accoun) [https://drupal.org/node/2161929]
+
