@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GitHub to drupal.org"
+title:  "GitHub to drupal.org blockers"
 date:   2013-12-28 18:34:00
 categories: repos
 ---
@@ -21,4 +21,16 @@ Once we can do that, we can automatically grant push access to the correct GitHu
 So, if you are involved in Drupal.org development, please see [Issue #2161929 Add a profile field for GitHub account](https://drupal.org/node/2161929) and [Issue #1090056 Show a version of the maintainers tab for all users](http://drupal.org/node/1090056)
 
 But for now, I am going to look for a link to your github user on your drupal.org account.
+
+The process will be like this:
+
+1. A module maintainer adds "hubdrop" to their drupal.org project, with permission to "Write to VCS" and "Manage maintainers".  
+2. Maintainers add a link to their github user page to their drupal.org profile.
+3. Visit the hubdrop page for your project (ie. http://hubdrop.io/project/views) and hit "Enable GitHub-to-Drupal sync".
+4. All the maintainers will be granted Push access to the project on GitHub.
+
+The maintainers list is still maintained on drupal.org. Any code pushed to drupal.org will still be synced over to github.
+
+From that point, anyone who has forked the repo will be able to submit pull requests.
+
 
