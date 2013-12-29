@@ -14,13 +14,13 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS
-        <link rel="stylesheet" href="/css/main.css">
-        -->
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/hubdrop.css">
 
     </head>
-    <body class="{{ page.bodyclass }}">
+    <body class="{{ page.type }}">
     <div class="container">
+
       <div class="header">
         <ul class="nav nav-pills pull-right">
             <li><a href="/">Blog</a></li>
@@ -28,6 +28,12 @@
         </ul>
         <h1 class="title"><a href="/">{{ site.name }}</a></h1>
       </div>
+      {% if (page.type == 'front') %}
+        <div class="jumbotron">
+            <p class="lead">Mirroring code between drupal and github.</p>
+            <p><a class="btn btn-lg btn-success" href="http://hubdrop.io" role="button">Mirror a project.</a></p>
+        </div>
+      {% endif %}
 
       {{ content }}
 
