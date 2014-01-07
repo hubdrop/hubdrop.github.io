@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manual \"Move to GitHub\" now possible."
+title: "Manual \"Move to GitHub\" now possible, maintainer teams can be synced."
 date: {}
 published: true
 ---
@@ -56,7 +56,9 @@ Both tasks will require much more programming.
 ## "Official Mirrors" vs "Development Repos" vs Both?
 If the ability to set a project's source to the github organization of choice were implemented, then perhaps every repo at github.com/drupalprojects could just be an "official mirror", just as https://github.com/drupal/drupal does it. It was an idea originally to reach out to the owners of the "drupal" organization on github to see if hubdrop could provide those mirrors, and to see if github would mark them as "official mirrors".
 
-Letting module creators use their own github organization to own their modules would probably be a welcome feature.
-
 This would empower the developers by putting them in the "owners" team. This would let maintainers decide on github who has push or pull access, avoiding the need for maintaining that info on drupal.org.
+
+Letting module creators use their own github organization to own their modules would probably be a welcome feature.  What do you think?
+
+
 
