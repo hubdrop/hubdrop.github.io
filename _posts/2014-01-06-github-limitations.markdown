@@ -21,7 +21,7 @@ We don't have the "Move to GitHub" button yet, but I can easily do it manually o
 ## Teams
 HubDrop has to create github "teams" in order to grant push access to users. This is because "drupalprojects" is a github organization.
 
-Each team can be assigned one of three possible permissions: Pull, Push & Pull, and" Push, Pull & Administrativ"e.
+Each team can be assigned one of three possible permissions: Pull, Push & Pull, and" Push, Pull & Administrative".
 
 I first created a team called "ProjectName Committers", and then "ProjectName Admins"
 I was able to create a team with "administrative" privileges, and added the users who can "edit" the project node, but, unfortunately, that does not grant you the ability to add other people to the ).
