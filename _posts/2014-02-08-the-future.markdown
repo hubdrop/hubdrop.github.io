@@ -34,6 +34,7 @@ We'll see how it goes.  I am a cynic idealist.  If the funding comes in, there's
 There are a number of features that I am sure everyone is thinking of.  Here is my priority list:
 
 1. **GitHub to Drupal sync.**
+
   This will allow projects to move development to GitHub, while maintaining a mirror on drupal.org for releases, presence in the community, etc.
 
   This is already working for the "drupalprojects" organization, but I have to run a command on the server to do so.  This is a very tricky feature because you have to decide who gets commit access.
@@ -41,6 +42,7 @@ There are a number of features that I am sure everyone is thinking of.  Here is 
   I have this working as well, and I'll write more about it later, but the point is, the next step is letting developers create their own repos in any organization, and plug it into Drupal's git service.  This part will require some work because there is no database in hubdrop and I'd like to keep it that way. 
 
 2. **Private 3rd Party Mirroring (and merging)**
+
   By which I mean, mirroring your Pantheon, Acquia, or other git host repo on your own GitHub account or organization, private or public.
 
   I already set this up as a test by messing with the pushUrl and it works, but its lumped in with the contrib projects.  Also this depends on feature #1 because we need some kind of authentication to set this up.  
@@ -48,9 +50,11 @@ There are a number of features that I am sure everyone is thinking of.  Here is 
   The merging part is mainly for Acquia Cloud.  We could let devs keep their drupal code in the root of their repo, and automatically sync it to your acquia cloud repo, which must keep drupal at`docroot`.
 
 3. **Drupal Core Update Merging**
+
   What if you could give hubdrop access to your repo, and, whenever there was a core update, it could make a branch of your master and apply the update for your review?  Basically what Pantheon does but for *any* drupal repo.
 
 3. **Drush Make and Distribution Repos**
+
   Using drupal/drush make-driven-drupal-development? Want to, but don't want to teach your devs to build the site all the time?  
 
   Got a distribution that drupal.org packages? 
