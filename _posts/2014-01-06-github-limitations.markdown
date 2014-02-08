@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Manual \"Move to GitHub\" now possible, maintainer teams can be synced."
-date: {}
+date: "2014-01-06 12:00:00"
 published: true
 ---
 
