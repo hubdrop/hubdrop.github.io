@@ -30,7 +30,7 @@ I've got some important ideas that I believe in.  This project is a tool for the
 
 We'll see how it goes.  I am a cynic idealist.  If the funding comes in, there's so much that can be done.  
 
-## Features
+## Future Features
 There are a number of features that I am sure everyone is thinking of.  Here is my priority list:
 
 1. **GitHub to Drupal sync.**
