@@ -17,18 +17,22 @@ Installing Jekyll isn't hard.  This was summarized from https://help.github.com/
 
 2. Install Bundler
 
+
     $ sudo gem install bundler
 
 3. Install `github-pages` gem.
+
 
     $ sudo gem install github-pages
 
 4. Get this repo.
 
+
     $ git clone git@github.com:hubdrop/hubdrop.github.io.git
     $ cd hubdrop.github.io
 
 5. Run Jekyll server.
+
 
     $ bundle exec jekyll serve --watch
 
