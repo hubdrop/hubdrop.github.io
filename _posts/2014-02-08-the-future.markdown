@@ -2,12 +2,10 @@
 layout: post
 title:  "The Future of Funding for HubDrop"
 date:   2014-02-08 15:10:00
-categories: repos
+categories: repos, funding
 ---
 
-This project is simply something I wanted to do.  No one paid for it. I built it in my spare time as a way to refine the knowledge I learned over the last few years about Symfony, Vagrant, and Chef.
-
-I want to grow this tool, but it takes time and a server, which both == money.
+This project is simply something I wanted to do.  No one paid for it. I built it in my spare time as a way to refine the knowledge I learned over the last few years about Symfony, Vagrant, and Chef. I want to grow this tool, but it takes time and a server, which both == money.
 
 So I'm opening up a GitTip account and starting an IndieGoGo campaign to raise funding for development of hubdrop.io.
 
@@ -62,3 +60,18 @@ There are a number of features that I am sure everyone is thinking of.  Here is 
   
   HubDrop could track changes to your makefile, and sync that with a full drupal site repo, making for more flexible development and distribution.
 
+## All the things
+
+I'll end with a tweet from a fan.  HubDrop has already inspired a meme.
+
+While I don't see a need for mirroring *all* the things, I do think the freedom for developers to develop with the tool they prefer is an important freedom to have.
+
+My hope is that this tool will bring more people together to improve code for all.
+
+Thanks!
+
+Jon
+<center>
+<blockquote class="twitter-tweet" lang="en"><p>Sync all the modules! <a href="http://t.co/5db358ZyUw">http://t.co/5db358ZyUw</a> <a href="https://twitter.com/search?q=%23drupal&amp;src=hash">#drupal</a> <a href="http://t.co/71gVpXwy11">pic.twitter.com/71gVpXwy11</a></p>&mdash; Dave Hall (@skwashd) <a href="https://twitter.com/skwashd/statuses/407295986860433408">December 1, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
