@@ -16,24 +16,26 @@ Installing Jekyll isn't hard.  This was summarized from https://help.github.com/
   Go to https://www.ruby-lang.org/en/downloads/ if you don't have it.
 
 2. Install Bundler
-
-
-    $ sudo gem install bundler
+  ````
+     $ sudo gem install bundler
+  ````
 
 3. Install `github-pages` gem.
-
-
+  ````
     $ sudo gem install github-pages
+  ````
 
 4. Get this repo.
-
-
+  ````
     $ git clone git@github.com:hubdrop/hubdrop.github.io.git
     $ cd hubdrop.github.io
 
+  ````
+
 5. Run Jekyll server.
 
-
+  ````
     $ bundle exec jekyll serve --watch
+  ````
 
   The `--watch` option will make changes visible in the browser immediately.
