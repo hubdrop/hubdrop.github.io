@@ -6,7 +6,7 @@ published: false
 
 This project is simply something I wanted to do.  No one paid for it. I built it in my spare time as a way to refine the knowledge I learned over the last few years about Symfony, Vagrant, and Chef.
 
-I want to grow this tool, but it takes time (==money) and a server.
+I want to grow this tool, but it takes time and a server, which both == money.
 
 So I'm opening up a GitTip account and starting an IndieGoGo campaign to raise funding for development of hubdrop.io.
 
@@ -15,9 +15,9 @@ But before I do that, I wanted to formally introduce HubDrop to the Drupal aocmm
 ## What is HubDrop?
 HubDrop.io is currently a tool that mirrors Drupal projects on GitHub.  In the future it will do all sorts of magic things with your git repos.
 
-It was also a learning experience for me, but hopefully for others.  hope to use HubDrop's code as a lesson in building web services.
+It was also a learning experience for me, and hopefully it will be for others. I hope to use HubDrop's code as a lesson in building web services.
 
-In the future, I want put together a detailed case study and document the process of building the entire HubDrop service.
+In the future, I want put together a detailed case study and document the process of building the entire HubDrop service for all to learn from.
 
 HubDrop is also a part of the Drupal community.  There is a lot of debate about the drupal.org tools, and the effort it takes to improve them.  There was a huge discussion of moving to github outright, years ago.  The idea for hubdrop was to act as a bridge, so we don't have to decide for everyone what tool they must use for development, and can maybe get the best of both worlds in the meantime.
 
@@ -49,6 +49,7 @@ There are a number of features that I am sure everyone is thinking of.  Here is 
 
 3. **Drupal Core Update Merging**
   What if you could give hubdrop access to your repo, and, whenever there was a core update, it could make a branch of your master and apply the update for your review?  Basically what Pantheon does but for *any* drupal repo.
+
 3. **Drush Make and Distribution Repos**
   Using drupal/drush make-driven-drupal-development? Want to, but don't want to teach your devs to build the site all the time?  
 
