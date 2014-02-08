@@ -2,7 +2,6 @@
 layout: post
 title:  "GitHub to drupal.org blockers"
 date:   2013-12-28 18:34:00
-categories: repos
 ---
 
 HubDrop started with the idea that we could all benefit from drupal module code living on GitHub.

@@ -2,7 +2,6 @@
 layout: post
 title:  "The Future of Funding for HubDrop"
 date:   2014-02-08 15:10:00
-categories: repos, funding
 ---
 
 This project is simply something I wanted to do.  No one paid for it. I built it in my spare time as a way to refine the knowledge I learned over the last few years about Symfony, Vagrant, and Chef. I want to grow this tool, but it takes time and a server, which both == money.
