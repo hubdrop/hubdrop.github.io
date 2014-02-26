@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Future of Funding for HubDrop"
+title:  "The Future of HubDrop"
 date:   2014-02-08 15:10:00
 ---
 
