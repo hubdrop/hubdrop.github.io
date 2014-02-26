@@ -6,7 +6,7 @@ date:   2014-02-08 15:10:00
 
 This project is simply something I wanted to do.  No one paid for it. I built it in my spare time as a way to refine the knowledge I learned over the last few years about Symfony, Vagrant, and Chef. I want to grow this tool, but it takes time and a server, which both == money.
 
-So I'm opening up a GitTip account and starting an IndieGoGo campaign to raise funding for development of hubdrop.io.
+So I'm opening up a GitTip account to raise funding for development of hubdrop.io.
 
 But before I do that, I wanted to formally introduce HubDrop to the Drupal aocmmunity.
 
