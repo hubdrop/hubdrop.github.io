@@ -8,7 +8,7 @@ This project is simply something I wanted to do.  No one paid for it. I built it
 
 So I'm opening up a [GitTip](https://www.gittip.com/hubdrop/) account to raise funding for development of hubdrop.io.
 
-But before I do that, I wanted to formally introduce HubDrop to the Drupal aocmmunity.
+But before I do that, I wanted to formally introduce HubDrop to the Drupal community.
 
 ## What is HubDrop?
 HubDrop.io is currently a tool that mirrors Drupal projects on GitHub.  In the future it will do all sorts of magic things with your git repos.
